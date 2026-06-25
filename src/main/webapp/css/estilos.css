@@ -1,0 +1,75 @@
+/* Estilo general del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Define la letra principal de la página como Arial; si no existe, usa una fuente sans-serif */
+    background-color: #f4f6f8; /* Define un color gris claro para el fondo de toda la página */
+    margin: 0; /* Elimina el margen exterior que el navegador coloca por defecto */
+    padding: 0; /* Elimina el espacio interno que el navegador puede colocar por defecto */
+}
+
+/* Contenedor principal para centrar el contenido */
+.contenedor {
+    width: 85%; /* Hace que el contenedor ocupe el 85% del ancho disponible */
+    max-width: 950px; /* Limita el ancho máximo del contenedor a 950 píxeles */
+    margin: 40px auto; /* Agrega 40px arriba y abajo, y centra horizontalmente con auto */
+    background-color: white; /* Coloca fondo blanco dentro del contenedor */
+    padding: 25px; /* Agrega espacio interno entre el borde del contenedor y su contenido */
+    border-radius: 8px; /* Redondea las esquinas del contenedor */
+    box-shadow: 0 0 10px #cccccc; /* Agrega una sombra suave alrededor del contenedor */
+}
+
+/* Títulos principales */
+h1 {
+    color: #1f4e79; /* Define el color azul del texto del título */
+    text-align: center; /* Centra el texto del título */
+}
+
+/* Etiquetas de formularios */
+label {
+    font-weight: bold; /* Coloca las etiquetas en negrita */
+}
+
+/* Campos de texto, fecha, correo, contraseña y listas */
+input, select {
+    width: 100%; /* Hace que los campos ocupen todo el ancho disponible del contenedor */
+    padding: 8px; /* Agrega espacio interno dentro de los campos */
+    margin-top: 5px; /* Agrega espacio superior entre la etiqueta y el campo */
+    box-sizing: border-box; /* Hace que el padding no aumente el ancho total del campo */
+}
+
+/* Botones y enlaces con apariencia de botón */
+button, .boton {
+    display: inline-block; /* Permite que el enlace se comporte como botón y respete tamaño y padding */
+    background-color: #1f4e79; /* Define el color de fondo azul del botón */
+    color: white; /* Define el color del texto del botón en blanco */
+    padding: 10px 15px; /* Agrega espacio interno vertical y horizontal al botón */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    border: none; /* Elimina el borde por defecto del botón */
+    border-radius: 5px; /* Redondea las esquinas del botón */
+    margin: 5px; /* Agrega separación externa entre botones */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
+}
+
+/* Efecto al pasar el mouse por botones */
+button:hover, .boton:hover {
+    background-color: #163a5a; /* Cambia el color del botón a un azul más oscuro al pasar el mouse */
+}
+
+/* Tabla general */
+table {
+    width: 100%; /* Hace que la tabla ocupe todo el ancho disponible */
+    border-collapse: collapse; /* Une los bordes de las celdas para evitar doble borde */
+    background-color: white; /* Define fondo blanco para la tabla */
+}
+
+/* Encabezados de tabla */
+th {
+    background-color: #1f4e79; /* Coloca fondo azul en los encabezados de la tabla */
+    color: white; /* Coloca el texto de los encabezados en blanco */
+}
+
+/* Celdas de tabla */
+th, td {
+    padding: 8px; /* Agrega espacio interno en encabezados y celdas */
+    border: 1px solid #cccccc; /* Agrega un borde gris claro a cada celda */
+    text-align: center; /* Centra el texto dentro de las celdas */
+}
